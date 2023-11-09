@@ -1,2 +1,2 @@
-# DWT
-Dilated Window Transformer
+# Image Super-Resolution Using Dilated Window Transformer
+Dilated Window Transformer (DWT)
