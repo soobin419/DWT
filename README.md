@@ -59,7 +59,7 @@ Download training and testing datasets and put them into the corresponding folde
   python -m torch.distributed.launch --nproc_per_node=4 --master_port=2414 basicsr/train.py -opt options/train/train_DWT_SRx4_finetune_from_SRX2.yml --launcher pytorch
   ```
 
-  - The training experiment is in `experiments/`.
+- The training experiment is in `experiments/`.
 
 ## Testing
 
