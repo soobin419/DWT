@@ -71,7 +71,7 @@ Download training and testing datasets and put them into the corresponding folde
 
 - Download [testing](https://drive.google.com/file/d/1yMbItvFKVaCT93yPWmlP3883XtJ-wSee/view?usp=sharing) (Set5, Set14, BSD100, Urban100, Manga109) datasets, place them in `datasets/`.
 
-- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_DWT_x2.yml](options/test/test_DWT_SRx2_from_scratch.yml)).
+- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_DWT_SRx2_from_scratch.yml](options/test/test_DWT_SRx2_from_scratch.yml)).
 
 
   ```shell
@@ -96,7 +96,7 @@ Download training and testing datasets and put them into the corresponding folde
 
 - Put your dataset (single LR images) in `datasets/single`. Some test images are in this folder.
 
-- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_single_x2.yml](options/test/test_DWT_single_x2.yml)).
+- Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_DWT_single_x2.yml](options/test/test_DWT_single_x2.yml)).
 
     Note 1: The default model is DWT. You can use other models like DWT-S by modifying the YML.
 
